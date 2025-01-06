@@ -1,0 +1,18 @@
+{
+  "subdomain": " mbl2success",
+  "domain": "thedev.me",
+  "email_or_discord": "juesr165@anonaddy.me or user",
+  "github_username": "Erfolg-crypto",
+  "description": "web apps creating",
+
+  "records": {
+    "A":     ["1.0.0.1", "1.0.0.2"],
+    "AAAA":  ["2000:db8::1", "2000:db8::2"],
+    "CNAME": ["mbl2success.com"],
+    "NS":    ["ns1.mbl2success.com", "ns2.mbl2success.com"],
+    "MX":    ["mail1.mbl2success.com","mail2.mbl2success.com"],
+    "TXT":   ["v=spf1 include:_spf.mbl2success.com ~all"]
+  },
+
+  "proxied": true
+}
